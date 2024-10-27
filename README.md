@@ -1,4 +1,1 @@
-Legal Document Summerizer 
-
-Python 
-Gemini AI
+# text-summerizer
