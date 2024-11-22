@@ -13,7 +13,11 @@
 
 ## Project Overview
 
-The **Legal Document Summarizer** is a Python and Streamlit-based web application developed to generate concise summaries of legal documents in PDF, DOCX, or TXT format. This app allows users to select the desired summary length (Short, Medium, or Long) and leverages Google’s Gemini model API for natural language processing. Designed for legal professionals and researchers, the app provides a quick overview of lengthy documents, improving efficiency and accessibility. 
+The **Legal Document Summarizer** is a cloud-native web application developed using Python and Streamlit to generate concise summaries of legal documents in PDF, DOCX, or TXT formats. Users can customize summary length (Short, Medium, or Long) to suit their needs, leveraging Google’s Gemini model API for advanced natural language processing.
+
+The application is containerized using **Docker**, ensuring consistent performance across various environments. This containerization enables easy portability, quick updates, and seamless integration into the cloud. It is deployed on **AWS EC2 instances**, which provide scalable compute power, high availability, and secure cloud infrastructure. The use of EC2 ensures that the app can handle increasing user demands by allowing auto-scaling and flexible resource management.  
+
+This robust architecture simplifies deployment, enhances performance, and reduces downtime. Designed for legal professionals and researchers, the **Legal Document Summarizer** combines cutting-edge NLP, Docker's portability, and EC2’s scalability to deliver a highly efficient document analysis solution.
 
 ### Key Features
 - **Flexible Summary Options**: Users can choose from short, medium, or long summaries.
